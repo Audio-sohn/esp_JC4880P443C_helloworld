@@ -10,8 +10,10 @@ build/
 # ---- ESP-IDF specific ----
 sdkconfig.old
 sdkconfig.defaults
-# If you want to version your sdkconfig, keep it. Otherwise uncomment:
-# sdkconfig
+# sdkconfig   # Uncomment to ignore per-user configs
+
+# ---- ESP-IDF managed components ----
+managed_components/
 
 # ---- PlatformIO (optional) ----
 .pio/
@@ -45,9 +47,8 @@ Makefile
 idf.build
 
 # ---- Misc ----
-# Flash backup files
 *.bak
 *.orig
 
-# ---- VSCode settings (optional, keep if you share workspace) ----
+# ---- VSCode settings (optional) ----
 .vscode/
