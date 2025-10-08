@@ -1,0 +1,53 @@
+# ---- Build output ----
+build/
+*.bin
+*.elf
+*.map
+*.ld
+*.d
+*.o
+
+# ---- ESP-IDF specific ----
+sdkconfig.old
+sdkconfig.defaults
+# If you want to version your sdkconfig, keep it. Otherwise uncomment:
+# sdkconfig
+
+# ---- PlatformIO (optional) ----
+.pio/
+.pioenvs/
+.piolibdeps/
+.vscode/.browse.c_cpp.db*
+.vscode/c_cpp_properties.json
+.vscode/launch.json
+.vscode/ipch/
+
+# ---- IDE/editor temp files ----
+*.swp
+*.swo
+*~
+*.tmp
+*.log
+.DS_Store
+Thumbs.db
+
+# ---- Python virtual envs ----
+venv/
+.env/
+__pycache__/
+*.pyc
+
+# ---- CMake generated files ----
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+idf.build
+
+# ---- Misc ----
+# Flash backup files
+*.bak
+*.orig
+
+# ---- VSCode settings (optional, keep if you share workspace) ----
+.vscode/
