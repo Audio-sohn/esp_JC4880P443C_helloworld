@@ -6,7 +6,7 @@ dependencies:
     - name: idf
       version: '>5.0.4,!=5.1.1'
     source:
-      path: /home/tomu/Downloads/JC4880P443C_I_W/1-Demo/idf_examples/ESP-IDF/esp_JC4880P443C_helloworld/components/espressif__esp_lcd_st7701
+      path: /home/tomu/workspace/ha/esp_JC4880P443C_helloworld/components/espressif__esp_lcd_st7701
       type: local
     targets:
     - esp32s3
@@ -103,12 +103,12 @@ dependencies:
       type: idf
     version: 5.5.1
   lvgl/lvgl:
-    component_hash: 096c69af22eaf8a2b721e3913da91918c5e6bf1a762a113ec01f401aa61337a0
+    component_hash: b702d642e03e95928046d5c6726558e6444e112420c77efa5fdb6650b0a13c5d
     dependencies: []
     source:
       registry_url: https://components.espressif.com/
       type: service
-    version: 9.2.2
+    version: 9.3.0
 direct_dependencies:
 - esp_lcd_st7701
 - espressif/cmake_utilities
@@ -119,6 +119,6 @@ direct_dependencies:
 - espressif/esp_lvgl_port
 - idf
 - lvgl/lvgl
-manifest_hash: 679acf6ac8c867a0913745c18dd4ef63e241042e4cec87aeeb54d5b412ef11d5
+manifest_hash: 30862953912a612cf60b210ebb47575aef8e93517a0c88b3fb2bc3e02434f0dd
 target: esp32p4
 version: 2.0.0
