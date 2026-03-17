@@ -9,7 +9,8 @@ build/
 
 # ---- ESP-IDF specific ----
 sdkconfig.old
-sdkconfig.defaults
+sdkconfig
+dependencies.lock
 # sdkconfig   # Uncomment to ignore per-user configs
 
 # ---- ESP-IDF managed components ----
